@@ -8,9 +8,22 @@ Press **Ctrl+Space** in Premiere, type an effect name, and press **Enter**. The 
 - Video effects go on the selected video clips, audio effects on the selected audio clips. One Ctrl+Z undoes it.
 - ↑/↓ to move, Enter to apply, Esc to close.
 
-## Install
+## Install with Claude (easiest)
 Needs Windows and Premiere Pro 25.6 or newer.
 
+Open [Claude Code](https://claude.com/claude-code) (the desktop app's Code tab, or `claude` in a terminal) and paste:
+
+```
+Install PremiereFX for me: clone https://github.com/yoelkn/PremiereFX into my home folder, then run `powershell -ExecutionPolicy Bypass -File install.ps1` in that folder. When it finishes, tell me to open Window → UXP Plugins → PremiereFX in Premiere and dock the panel.
+```
+
+Or in Hebrew:
+
+```
+תתקין לי את PremiereFX: תעשה clone ל-https://github.com/yoelkn/PremiereFX לתיקיית הבית שלי, ותריץ בתיקייה הזו `powershell -ExecutionPolicy Bypass -File install.ps1`. כשזה מסתיים, תגיד לי לפתוח בפרמייר Window → UXP Plugins → PremiereFX ולעגן את הפאנל.
+```
+
+## Install by hand
 1. Download this repo (Code → Download ZIP) and unzip it.
 2. Double-click **`install.cmd`**.
 3. In Premiere: **Window → UXP Plugins → PremiereFX**, and dock the small panel somewhere in your workspace. Leave it there; it has to be open to work.
