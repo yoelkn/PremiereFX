@@ -1,1 +1,5 @@
 dist/
+demo/.hyperframes/
+demo/*.mp4
+demo/CLAUDE.md
+demo/AGENTS.md

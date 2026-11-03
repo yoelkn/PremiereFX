@@ -1,5 +1,7 @@
 # PremiereFX
 
+![PremiereFX demo: Ctrl+Space, type "blur", Enter, the effect lands on the clip](docs/demo.gif)
+
 Quick effect search for Adobe Premiere Pro (Windows).
 Press **Ctrl+Space** in Premiere, type an effect name, and press **Enter**. The effect goes on the selected clips.
 

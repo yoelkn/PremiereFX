@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, height=720" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1280px; height: 720px; overflow: hidden; background: #161616; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="7" data-width="1280" data-height="720">
+      <div
+        id="demo"
+        data-composition-id="demo"
+        data-composition-src="compositions/demo.html"
+        data-start="0"
+        data-duration="7"
+        data-track-index="1"
+        data-track-kind="graphics"
+        data-width="1280"
+        data-height="720"
+      ></div>
+    </div>
+    <script>
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>
